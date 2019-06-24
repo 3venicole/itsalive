@@ -1,0 +1,43 @@
+{
+  "applicationInsights": {
+    "type": "Object",
+    "value": {
+      "InstrumentationKey": "bf151f09-d887-4f85-baa2-a0d8efd5b418"
+    }
+  },
+  "contentModerator": {
+    "type": "Object",
+    "value": {
+      "key": "0ac1db9f1a3e46d7996b6ad3ccb8c890"
+    }
+  },
+  "cosmosDb": {
+    "type": "Object",
+    "value": {
+      "authkey": "AlwFU8dxthj8mTnlx3NE8XQWkSLs007jCaYgmRRZJUmvv2048HBcjDDmlgeGh5Z91PZn3YPbuxU8uLXRInKbyQ==",
+      "collectionId": "botstate-collection",
+      "cosmosDBEndpoint": "https://johnnynumfive.documents.azure.com:443/",
+      "databaseId": "botstate-db"
+    }
+  },
+  "luis": {
+    "type": "Object",
+    "value": {
+      "key": "7d6f17cadae248be8ea2b3e39879f449"
+    }
+  },
+  "qnaMaker": {
+    "type": "Object",
+    "value": {
+      "endpoint": "https://johnnynumfive-qnahost.azurewebsites.net",
+      "key": "a41e5b93f8c240b09bee8e60ef37493f"
+    }
+  },
+  "storage": {
+    "type": "Object",
+    "value": {
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=johnnynumfive;AccountKey=ILtWGARBTB77ZQ6okUCYBm16K923AUY9YIfqA/OsBquuV1vIPgoBrSXghEs4tVwIjHx3ixwMCPM0KJJrHFAP1g==;EndpointSuffix=core.windows.net",
+      "container": "transcripts"
+    }
+  }
+}

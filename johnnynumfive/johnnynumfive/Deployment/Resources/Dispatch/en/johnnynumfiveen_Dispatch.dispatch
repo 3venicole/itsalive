@@ -1,0 +1,47 @@
+{
+  "authoringRegion": "westus",
+  "culture": "en-us",
+  "hierarchical": true,
+  "useAllTrainingData": false,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "services": [
+    {
+      "intentName": "l_general",
+      "appId": "f1384afd-0ef7-4530-a473-2ce97dc241e4",
+      "authoringKey": "b9ec76327c4944b59f8da3595c8f4cac",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "johnnynumfiveen_general",
+      "id": "1"
+    },
+    {
+      "intentName": "q_chitchat",
+      "kbId": "cd63962d-062a-4de5-9f2c-53a681934bc9",
+      "subscriptionKey": "a41e5b93f8c240b09bee8e60ef37493f",
+      "type": "qna",
+      "name": "chitchat",
+      "id": "2"
+    },
+    {
+      "intentName": "q_faq",
+      "kbId": "86f30327-6d60-4084-a445-5d44155c0282",
+      "subscriptionKey": "a41e5b93f8c240b09bee8e60ef37493f",
+      "type": "qna",
+      "name": "faq",
+      "id": "3"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2",
+    "3"
+  ],
+  "appId": "b071aff6-ff84-4d3e-957e-47981db8c974",
+  "authoringKey": "b9ec76327c4944b59f8da3595c8f4cac",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "johnnynumfiveen_Dispatch"
+}

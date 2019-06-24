@@ -1,0 +1,44 @@
+{
+  "cognitiveModels": {
+    "en": {
+      "knowledgebases": [
+        {
+          "endpointKey": "d6006f72-9d2c-4635-a35c-34bb0b85b0f4",
+          "id": "chitchat",
+          "kbId": "cd63962d-062a-4de5-9f2c-53a681934bc9",
+          "subscriptionKey": "a41e5b93f8c240b09bee8e60ef37493f",
+          "name": "chitchat",
+          "hostname": "https://johnnynumfive-qnahost.azurewebsites.net"
+        },
+        {
+          "endpointKey": "d6006f72-9d2c-4635-a35c-34bb0b85b0f4",
+          "id": "faq",
+          "kbId": "86f30327-6d60-4084-a445-5d44155c0282",
+          "subscriptionKey": "a41e5b93f8c240b09bee8e60ef37493f",
+          "name": "faq",
+          "hostname": "https://johnnynumfive-qnahost.azurewebsites.net"
+        }
+      ],
+      "dispatchModel": {
+        "subscriptionkey": "b9ec76327c4944b59f8da3595c8f4cac",
+        "authoringkey": "b9ec76327c4944b59f8da3595c8f4cac",
+        "type": "dispatch",
+        "appid": "b071aff6-ff84-4d3e-957e-47981db8c974",
+        "name": "johnnynumfiveen_Dispatch",
+        "region": "westus"
+      },
+      "languageModels": [
+        {
+          "region": "westus",
+          "id": "general",
+          "appid": "f1384afd-0ef7-4530-a473-2ce97dc241e4",
+          "subscriptionkey": "b9ec76327c4944b59f8da3595c8f4cac",
+          "name": "johnnynumfiveen_general",
+          "authoringkey": "b9ec76327c4944b59f8da3595c8f4cac",
+          "version": "0.1"
+        }
+      ]
+    }
+  },
+  "defaultLocale": "en-us"
+}
